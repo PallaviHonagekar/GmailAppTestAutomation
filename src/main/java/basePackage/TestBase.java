@@ -39,9 +39,9 @@ public class TestBase {
 		searchMail = PageFactory.initElements(driver, SearchMail.class);
 	}
 	
-//	@AfterMethod
-//	public void tearDown() {
-//		//driver.quit();
-//	}
+	@AfterMethod
+	public void tearDown() {
+		//driver.quit();
+	}
 	
 }
